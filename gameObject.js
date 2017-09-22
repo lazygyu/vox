@@ -7,7 +7,7 @@ const ObjectType = {
     MapObject:4
 }
 
-class Chunk{
+export class Chunk{
     constructor(){
         this.mesh = null;
         this.blocks = 0;
