@@ -25,7 +25,7 @@ export class Chunk{
 }
 
 class GameObject{
-    constructor({ type : ObjectType.MapObject, hp:0, name : '', chunk }){
+    constructor({ type = ObjectType.MapObject, hp=0, name = '', chunk }){
         this.type = type;
         this.hp = 0;
         this.name = name;
